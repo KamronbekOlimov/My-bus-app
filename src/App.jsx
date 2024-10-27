@@ -6,13 +6,13 @@ import Drive from './pages/drive/Drive';
 function App() {
   return (
     <>
-    <BrowserRouter>
-    <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/direction' element={<Direction/>}/>
-      <Route path='/drive' element={<Drive/>}/>
-    </Routes>
-    </BrowserRouter>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/direction' element={<Direction />} />
+          <Route path='/drive' element={<Drive />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

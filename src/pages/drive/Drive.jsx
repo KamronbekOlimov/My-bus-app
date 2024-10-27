@@ -5,15 +5,15 @@ function Drive() {
   return (
     <div className="w-full h-screen bg-[#F1F1F1]">
       <div className="w-full h-[109px] bg-[#3ABA7E] flex items-center justify-center">
-        <div className="w-[350px] flex items-center gap-x-[15px]">
+        <div className="w-[90%] flex items-center gap-x-[15px]">
           <button onClick={() => navigate('/')} className="text-[#FDFDFD] text-[18.92px]"><FaArrowLeftLong /></button>
           <div>
             <span className="text-[#FDFDFD] font-medium text-[20px] font-laila leading-[31px]">Admin panel</span>
           </div>
         </div>
       </div>
-      <div className="container w-[372px]">
-        <form action="">
+      <div className="container w-[90%]">
+        <form className="py-5 flex flex-col gap-y-[10px]" action="">
           <div className="w-full flex flex-col gap-y-2">
             <span className="text-[#1E1E1E] leading-[22.4px] font-normal text-[16px]">Qayerdan</span>
             <input className="bg-[#FFFFFF] h-[40px] border-solid border-[1px] border-[#D9D9D9] rounded-[5px] outline-none py-[12px] px-[16px]" type="text" />
@@ -42,7 +42,7 @@ function Drive() {
             <input type="checkbox" />
             <span className="border-solid border-[1px] border-[#D9D9D9] rounded-[8px] py-[6px] px-[16px]">Lakatsiya malumotni berish</span>
           </div>
-          <button className="w-full font-medium h-[41px] rounded-[100px] bg-[#65558F] text-[#FFFFFF]">Yuborish</button>
+          <button className="w-full my-[10px] font-medium h-[41px] rounded-[100px] bg-[#65558F] text-[#FFFFFF]">Yuborish</button>
         </form>
       </div>
     </div>

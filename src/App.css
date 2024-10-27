@@ -18,3 +18,7 @@ nav a.active::after{
     bottom: -5px;
     left: 0;
 }
+.map-input{
+    left: 50%;
+    transform: translateX(-50%);
+}
